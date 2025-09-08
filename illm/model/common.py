@@ -23,7 +23,7 @@ REQUIRED_OLLAMA_PACKAGES = [
     'uvicorn',
     'pydantic',
     'transformers',
-    'requests',
+    'requests'
 ]
 
 # vLLM的依赖列表
@@ -40,7 +40,9 @@ REQUIRED_TRANSFORMERS_PACKAGES = [
     'fastapi',
     'uvicorn',
     'transformers',
-    'pydantic'
+    'torch',
+    'pydantic',
+    'requests'
 ]
 
 

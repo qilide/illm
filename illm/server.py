@@ -17,3 +17,5 @@ def run():
         exit(0)
     # 启动fastApi服务
     start_uvicorn(config.get("host"),config.get("port"))
+if __name__ == "__main__":
+    run()
